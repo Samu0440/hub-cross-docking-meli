@@ -10,7 +10,7 @@ import { authMiddleware } from './shared/middlewares/auth.middleware'
 const app = express()
 const PORT = process.env.PORT || 3333
 
-app.use(cors({ origin: process.env.FRONTEND_URL || 'http://localhost:3000' }))
+app.use(cors())
 app.use(express.json())
 
 // Rotas públicas
