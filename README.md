@@ -1,4 +1,4 @@
-cat > ~/Desktop/hub-meli/README.md << 'FIM'
+
 # 🏪 Hub Cross-Docking - Mercado Livre
 
 ![Status](https://img.shields.io/badge/status-MVP-brightgreen)
